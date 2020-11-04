@@ -31,7 +31,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-				</configuration>
+				</configuration>				
 			</plugin>
 
 			<plugin>
@@ -41,6 +41,15 @@
 				<configuration>
 					<repoToken>FcI5KZ17XEwBdCeRJzWNBL7iRXxwOndd3</repoToken>
 				</configuration>
+
+				<dependencies>
+                    <dependency>
+                        <groupId>javax.xml.bind</groupId>
+                        <artifactId>jaxb-api</artifactId>
+                        <version>2.3.0</version>
+                    </dependency>
+                </dependencies>
+
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
